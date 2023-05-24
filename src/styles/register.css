@@ -1,0 +1,8 @@
+.form_box {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 80px;
+}
