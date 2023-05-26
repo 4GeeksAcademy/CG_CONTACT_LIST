@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.contact_box {
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+}
