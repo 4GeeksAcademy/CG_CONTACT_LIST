@@ -37,23 +37,31 @@ export const Register = () => {
 				<div className="row">
 					<div className="col-12">
 						<label htmlFor="name" className="form-label">Name</label>
-						<input type="text" className="form-control" id="full_name" placeholder="Name" onChange={handleChange}/>
+						<input type="text" className="form-control" id="full_name" placeholder="Name" onChange={(event) => {
+							setData({...data, full_name: event.target.value})
+						}}/>
 					</div>
 				</div>
 				<div className="row">
 					<div className="col-12">
 						<label htmlFor="email" className="form-label">Email</label>
-						<input type="text" className="form-control" id="email" placeholder="@" onChange={handleChange}/>
+						<input type="text" className="form-control" id="email" placeholder="@" onChange={(event) => {
+							setData({...data, email: event.target.value})
+						}}/>
 					</div>
 				</div>
 				<div className="row">
 					<div className="col-6">
 						<label htmlFor="adress" className="form-label">Address</label>
-						<input type="text" className="form-control" id="address" placeholder="Address" onChange={handleChange}/>
+						<input type="text" className="form-control" id="address" placeholder="Address" onChange={(event) => {
+							setData({...data, address: event.target.value})
+						}}/>
 					</div>
 					<div className="col-6">
 						<label htmlFor="phone" className="form-label">Phone number</label>
-						<input type="text" className="form-control" id="phone" placeholder="Phone" onChange={handleChange}/>
+						<input type="text" className="form-control" id="phone" placeholder="Phone" onChange={(event)=> {
+							setData({...data, phone: event.target.value})
+						}}/>
 					</div>
 				</div>
 				<div className="row-final">

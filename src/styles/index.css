@@ -16,9 +16,3 @@
     background-color: rgb(120, 189, 189);
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-}

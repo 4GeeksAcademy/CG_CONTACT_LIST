@@ -1,12 +1,37 @@
-.box{
+.contact_box {
+    justify-content:center;
     display: flex;
     border: 2px;
     border-style: solid;
     border-radius: 10px;
+
+}
+.fas {
+    margin-right: 20px;
 }
 
-.contact_box {
-    border-top: 2px;
-    border-bottom: 2px;
-    border-style: solid;
+.individual_contact {
+    margin-top: 20px;
+}
+
+.img_contact {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.user_edit {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.trash {
+    width: 30px;
+    height: 30px;
+}
+.edition_box {
+    margin-top: 60px;
+    margin-right: 80px;
 }
