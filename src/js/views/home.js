@@ -46,7 +46,7 @@ export const Home = () => {
 									</div>
 									<div className="col-1 col-md-1">
 										<div className="edition_box">
-												<Link to="/edit">
+												<Link to={`/edit/${contact.id}`}>
 													<img className="user_edit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipXVIg2fEyboGw36rRV34_3sQk3rBj_ucG3VlSGBdjsgY8aINs0STmvt2ITzuFzDJ1bA&usqp=CAU" />
 												</Link>
 											<img className="trash" src="https://static.vecteezy.com/system/resources/previews/008/325/704/original/black-trash-icon-logo-clipart-isolated-in-white-background-image-free-vector.jpg" onClick={() => {deleteContact(contact.id)}} />

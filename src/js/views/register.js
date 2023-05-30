@@ -12,9 +12,6 @@ export const Register = () => {
 		phone: ""
 	});
 	const navigate = useNavigate()
-	const handleChange = (event) => {
-		setData(event.target.value)
-	}
 
 
 	const handleSubmit = (event) => {
