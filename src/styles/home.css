@@ -10,8 +10,13 @@
 
 .container {
     align-items:center ;
-    padding-left: 0;
-    padding-right: 20px;
+    padding-right: 5%;
+}
+
+.ol {
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-self: center
 }
 .fas {
     margin-right: 20px;
@@ -25,13 +30,13 @@
     width: 100px;
     height: 100px;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .user_edit {
     width: 30px;
     height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .trash {
@@ -41,8 +46,9 @@
 
 .edition_box {
     margin-top: 60px;
+    margin-right: 5%;
 }
 
 .col-8 {
-    margin-left: 20px;
+    margin-left: 10%;
 }

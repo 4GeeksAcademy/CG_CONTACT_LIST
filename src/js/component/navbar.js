@@ -7,7 +7,7 @@ export const Navbar = () => {
 			<Link to="/">
 				<img className="navbar_img" src="https://logowik.com/content/uploads/images/ios-contacts5753.jpg" />
 			</Link>
-			<div className="ml-auto">
+			<div>
 				<Link to="/register">
 					<button className="btn_navbar">New contact</button>
 				</Link>
